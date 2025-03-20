@@ -1,8 +1,17 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { FaGithub, FaLinkedin, FaTwitter, FaArrowRight } from "react-icons/fa";
+import { TypingAnimation } from "@/components/ui/typing-animation";
 
 export function Hero() {
+  const roles = [
+    "Software Engineer",
+    "Frontend Developer",
+    "React Specialist",
+    "UI/UX Enthusiast",
+    "Problem Solver"
+  ];
+  
   return (
     <section className="py-16 md:py-24 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-blue-50 to-indigo-50 dark:from-gray-900 dark:to-gray-800 z-0"></div>
@@ -18,7 +27,14 @@ export function Hero() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-gray-900 dark:text-white">
               Hi, I'm John Doe
               <br />
-              <span className="text-primary">Software Engineer</span>
+              <span className="text-primary">
+                <TypingAnimation 
+                  text={roles} 
+                  typingSpeed={100} 
+                  backspaceSpeed={50} 
+                  delayAfterText={2000}
+                />
+              </span>
             </h1>
             <p className="text-lg md:text-xl mb-8 text-gray-700 dark:text-gray-300">
               I build exceptional and accessible digital experiences for the web.
