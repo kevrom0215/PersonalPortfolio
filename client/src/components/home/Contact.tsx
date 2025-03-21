@@ -72,7 +72,7 @@ export function Contact() {
     <section id="contact" className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-6 text-center relative">
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-[#8B5CF6]">Get In Touch</span>
+          <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-[#8B5CF6] ">Get In Touch</span>
           <div className="w-20 h-1 bg-primary mx-auto mt-2"></div>
         </h2>
         
