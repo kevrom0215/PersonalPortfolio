@@ -29,8 +29,8 @@ export function Navbar() {
   const navItems = [
     { href: "#about", label: "About" },
     { href: "#skills", label: "Skills" },
-    { href: "#projects", label: "Projects" },
-    { href: "#blog", label: "Blog" },
+    // { href: "#projects", label: "Projects" },
+    // { href: "#blog", label: "Blog" },
     { href: "#contact", label: "Contact" },
   ];
 
@@ -38,8 +38,8 @@ export function Navbar() {
     <header className={`sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md shadow-sm transition-all duration-300 ${isScrolled ? 'shadow-md' : ''}`}>
       <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
         <Link href="/" className="text-xl font-bold">
-          <span className="text-primary">John</span>
-          <span className="text-gray-800 dark:text-white">Doe</span>
+          <span className="text-primary">Kenneth</span>
+          <span className="text-gray-800 dark:text-white">Araga</span>
         </Link>
         
         <div className="md:hidden">

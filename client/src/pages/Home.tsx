@@ -30,9 +30,9 @@ export default function Home() {
         <Hero />
         <About />
         <Skills />
-        <Projects />
-        <Blog />
-        <CodeSnippet />
+        {/* <Projects /> */}
+        {/* <Blog /> */}
+        {/* <CodeSnippet /> */}
         <Contact />
       </main>
       <Footer />

@@ -21,13 +21,13 @@ export function About() {
             }`}
           >
             <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">
-              I'm a passionate software engineer with 5+ years of experience specializing in frontend development and modern JavaScript frameworks. My journey in tech started when I built my first website at 16, and I've been hooked ever since.
+            Full Stack Developer with 3 years of experience specializing in school management systems, including curriculum development, order processing, events, user, and student management. Proficient in Java, Angular, and AWS, with expertise in backend and frontend development across the full software lifecycle.
             </p>
             <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">
-              Currently, I work at <span className="text-primary font-medium">TechCorp</span> where I lead development on user-facing applications that serve millions of users. I focus on creating accessible, performant, and visually appealing web experiences.
+            Currently, I work at <span className="text-primary font-medium">Pointwest</span>, where I develop user-facing applications as a full stack Java developer. I focus on building accessible, high-performing, and visually appealing web experiences while ensuring seamless functionality across the stack.
             </p>
             <p className="text-lg mb-6 text-gray-700 dark:text-gray-300">
-              When I'm not coding, you'll find me hiking, reading sci-fi novels, or experimenting with new technologies in my home lab. I'm always eager to learn and share knowledge with the community through my blog and open-source contributions.
+            When I'm not coding, you'll find me exploring the world of cars, building Gundam models, or spending time with my dog. I'm always eager to learn and improve, whether it's deepening my cloud and software architecture knowledge or refining my development skills.
             </p>
           </div>
           

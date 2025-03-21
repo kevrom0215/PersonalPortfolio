@@ -17,7 +17,7 @@ import {
   FormLabel,
   FormMessage,
 } from "@/components/ui/form";
-import { FaGithub, FaLinkedin, FaTwitter, FaDev } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 // Form schema
 const contactFormSchema = z.object({
@@ -97,7 +97,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-gray-700 dark:text-gray-300 mb-1">Email</h4>
-                  <a href="mailto:john.doe@example.com" className="text-primary hover:text-blue-700 transition-colors">john.doe@example.com</a>
+                  <a href="mailto:kennetharaga@gmail.com" className="text-primary hover:text-blue-700 transition-colors">kennetharaga@gmail.com</a>
                 </div>
               </div>
               
@@ -107,7 +107,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-gray-700 dark:text-gray-300 mb-1">Phone</h4>
-                  <a href="tel:+11234567890" className="text-primary hover:text-blue-700 transition-colors">+1 (123) 456-7890</a>
+                  <a href="tel:+639178893375" className="text-primary hover:text-blue-700 transition-colors">(+63) 917 889 3375</a>
                 </div>
               </div>
               
@@ -117,7 +117,7 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-lg font-medium text-gray-700 dark:text-gray-300 mb-1">Location</h4>
-                  <p className="text-gray-600 dark:text-gray-400">San Francisco, California</p>
+                  <p className="text-gray-600 dark:text-gray-400">Quezon City, Metro Manila</p>
                 </div>
               </div>
             </div>
@@ -126,7 +126,7 @@ export function Contact() {
               <h4 className="text-lg font-medium text-gray-800 dark:text-white mb-4">Connect with me</h4>
               <div className="flex space-x-4">
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/kevrom0215" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-primary hover:text-white transition-all duration-300"
@@ -135,31 +135,13 @@ export function Contact() {
                   <FaGithub />
                 </a>
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://www.linkedin.com/in/kenneth-araga-81a4261b2/" 
                   target="_blank" 
                   rel="noopener noreferrer" 
                   className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-primary hover:text-white transition-all duration-300"
                   aria-label="LinkedIn"
                 >
                   <FaLinkedin />
-                </a>
-                <a 
-                  href="https://twitter.com" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-primary hover:text-white transition-all duration-300"
-                  aria-label="Twitter"
-                >
-                  <FaTwitter />
-                </a>
-                <a 
-                  href="https://dev.to" 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="w-10 h-10 rounded-full bg-gray-100 dark:bg-gray-800 flex items-center justify-center text-gray-700 dark:text-gray-300 hover:bg-primary hover:text-white transition-all duration-300"
-                  aria-label="Dev.to"
-                >
-                  <FaDev />
                 </a>
               </div>
             </div>
