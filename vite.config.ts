@@ -7,24 +7,23 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default defineConfig({
-  base: "./",
-  plugins: [
-    react(),
-  ],
+  base: "/PersonalPortfolio/", // ✅ Ensure correct base path
+  plugins: [react()],
   resolve: {
     alias: {
-      "@": path.resolve(__dirname, "src"), // ✅ Ensure alias points correctly
+      "@": path.resolve(__dirname, "client", "src"), // ✅ Ensure alias points to the correct location
     },
   },
+  root: path.resolve(__dirname, "client"), // ✅ Ensure correct root folder
   build: {
-    outDir: "dist",
+    outDir: path.resolve(__dirname, "dist/public"), // ✅ Match the working config's output path
     emptyOutDir: true,
-    assetsDir: "assets", // ✅ Ensures correct asset paths
+    assetsDir: "assets",
   },
   server: {
     open: true, // ✅ Opens browser on `npm run dev`
   },
   preview: {
-    port: 4173, // ✅ Prevents conflicts with local development
+    port: 5000, // ✅ Prevents conflicts with local development
   },
 });
