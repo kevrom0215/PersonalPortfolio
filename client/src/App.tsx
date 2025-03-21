@@ -8,7 +8,7 @@ function Router() {
   return (
     <Switch>
       <Route path="/" component={Home} />
-      <Route component={Home} />
+      <Route path="*" component={Home} />
     </Switch>
   );
 }
