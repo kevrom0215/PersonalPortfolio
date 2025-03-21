@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import { FaGithub, FaLinkedin, FaTwitter, FaArrowRight } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaArrowRight } from "react-icons/fa";
 import { TypingAnimation } from "@/components/ui/typing-animation";
 
 export function Hero() {
@@ -84,15 +84,7 @@ export function Hero() {
               >
                 <FaLinkedin className="text-xl" />
               </a>
-              <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors duration-300"
-                aria-label="Twitter"
-              >
-                <FaTwitter className="text-xl" />
-              </a>
+              
             </div>
           </motion.div>
 

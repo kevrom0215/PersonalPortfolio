@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin  } from "react-icons/fa";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
