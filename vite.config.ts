@@ -1,17 +1,30 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-import themePlugin from "@replit/vite-plugin-shadcn-theme-json";
 import path, { dirname } from "path";
-import runtimeErrorOverlay from "@replit/vite-plugin-runtime-error-modal";
 import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+
 export default defineConfig({
-  base: "/PersonalPortfolio/", // ✅ Set the correct GitHub Pages path
-  plugins: [react({ tsDecorators: true })],
+  base: "/PersonalPortfolio/", // ✅ Set the correct GitHub Pages base path
+  plugins: [
+    react({ tsDecorators: true }),
+  ],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "src"), // ✅ Ensure alias points correctly
+    },
+  },
   build: {
     outDir: "dist",
     emptyOutDir: true,
+    assetsDir: "assets", // ✅ Ensures correct asset paths
+  },
+  server: {
+    open: true, // ✅ Opens browser on `npm run dev`
+  },
+  preview: {
+    port: 4173, // ✅ Prevents conflicts with local development
   },
 });
