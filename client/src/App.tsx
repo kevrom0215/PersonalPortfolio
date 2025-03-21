@@ -10,9 +10,6 @@ function Router() {
       <Route path="/">
         <Home />
       </Route>
-      <Route path="*">
-        <NotFound />
-      </Route>
     </>
   );
 }
