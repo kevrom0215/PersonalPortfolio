@@ -7,9 +7,8 @@ import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-
 export default defineConfig({
-  base: "/PersonalPortfolio/", // ✅ Correct for GitHub Pages
+  base: "/PersonalPortfolio/", // ✅ Set the correct GitHub Pages path
   plugins: [react()],
   build: {
     outDir: "dist",
