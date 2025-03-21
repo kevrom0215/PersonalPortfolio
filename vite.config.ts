@@ -7,9 +7,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 export default defineConfig({
-  base: "/PersonalPortfolio/", // ✅ Set the correct GitHub Pages base path
+  base: "./",
   plugins: [
-    react({ tsDecorators: true }),
+    react(),
   ],
   resolve: {
     alias: {
